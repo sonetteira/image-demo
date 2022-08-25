@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+}
+img {
+    margin: 15px;
+}
+p {
+    color: white;
+}
+.banner img {
+    width: 100%;
+    margin: 0;
+}
+.black {
+    color: black;
+    text-align: left;
+}
+.content {
+    background: rgba(160, 160, 160, 0.76);
+    margin: 0 auto;
+    padding: 40px;
+    height: 500px;
+    width: 75%;
+}
+.galaxy {
+    background-image: url("../images/web-ring-nebula.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    background-color: black;
+}
+.gradient {
+    background: radial-gradient(black, white, blue) no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+.movie {
+    margin: 10px;
+}
+.music {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.grid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.grid-item {
+    border: 1px solid navy;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+.grid-item p {
+    color: black;
+    margin: 0px 5px;
+}
+.grid-item img {
+    width: 40px;
+    margin: 0;
+}
+.pass {
+    background-color: lightgreen;
+}
+.pass p {
+    color: green;
+}
+.fail {
+    background-color: palevioletred;
+}
+.fail p {
+    color: brown;
+}
